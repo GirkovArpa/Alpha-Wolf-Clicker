@@ -1,55 +1,31 @@
+<h1 align="center">
+  <a href="https://github.com/girkovarpa/alpha-wolf-clicker">
+    <img src="sciter/png/logo/256x256.png" alt="Alpha Wolf Clicker" width="256"/>
+  </a>
+  <br />
+  <br />
+  Alpha Wolf Clicker
+  <br />
+  <br />
+</h1>
 
-<div align="center" >
-  <br>
-  <img src="https://raw.githubusercontent.com/robiot/AlphaClicker/main/.github/Images/banner.png">
-  <br>
-  
-  <img alt="GitHub All Releases" src="https://img.shields.io/github/contributors/robiot/AlphaClicker?label=Contributors">
-  <img alt="GitHub Latest Release" src="https://img.shields.io/github/v/tag/robiot/AlphaClicker?label=Latest%20Release">
-  <img alt="GitHub Total Downloads" src="https://img.shields.io/github/downloads/robiot/AlphaClicker/total?label=GitHub%20Downloads">
-  <img alt="GitHub Total Issues" src="https://img.shields.io/github/issues/robiot/AlphaClicker?label=Issues">  
-  <img alt="GitHub Total Pull Requests" src="https://img.shields.io/github/issues-pr-raw/robiot/AlphaClicker?label=Open%20Pull%20Requests">
-  
-  <br>
-  <a href="https://github.com/robiot/AlphaClicker/releases/latest/download/AlphaClicker.exe">Download Latest</a>
-  <hr>
-</div>
-<br>
+<h3 align="center">
+  The leading auto-clicker for Windows.<br />Be ahead of the pack.
+</h3>
 
-:thinking: What is this?
-------------------
-<img src="https://raw.githubusercontent.com/robiot/AlphaClicker/main/.github/Images/alphaclicker.png" width=400/><img src="https://raw.githubusercontent.com/robiot/AlphaClicker/main/.github/Images/alphaclicker-dark.png" width=400/>
+<h1 align="center">
+  <a href="https://github.com/girkovarpa/alpha-wolf-clicker">
+    <img src="screenshot.png" alt="Alpha Wolf Clicker" />
+  </a>
+</h1>
 
-Alpha Clicker is a autoclicker for Windows with a **modern user interface**. :art:
+## Building
 
-:cyclone: Why Alpha Clicker?
-------------------
-<img src="https://raw.githubusercontent.com/robiot/AlphaClicker/main/.github/Images/showcase.gif" />
- 
- - It is open source, unlike many other autoclickers
+```sh
+cargo build
+```
 
+## Dependencies
 
-### :art: Design:
-Ever got tired of the old design of your autoclicker. This is for you. \
-Just you search "Autoclicker" and you will get a bunch of ancient autoclickers (which work, but looks anicent).
-<img src="https://raw.githubusercontent.com/robiot/AlphaClicker/main/.github/Images/otherclickers.png" width=500/>
-
-### :gear: Functionality:
-It basically works just like any other autoclicker.
- - Change Click Interval
- - Click At A Random Interval
- - Change Mouse Button
- - Change Click Type (Single / Double)
- - Repeat Forever or Repeat Specified times
- - Click At Current Mouse Location or At Given Coordinates
- - Toggle Topmost
- - Change Theme
- - Change Hotkey
- 
-:book: How to install
-------------------
- 1. Go to the [Releases](https://github.com/robiot/AlphaClicker/releases/latest) tab.
- 2. Click AlphaClicker.exe to start download
- 
- *Warning: When starting AlphaClicker.exe a Blue Window (Smartscreen) Will Probably Popup.* \
- To Run The Application You Have To Press **More Info** And Then **Run Anyways**.
+- [sciter.dll v4.4.8.15](https://github.com/c-smile/sciter-js-sdk/blob/faeba319c38bac2e833cbf0fe5a6be60cf87a24e/bin/windows/x64/sciter.dll)
+- AutoHotKey.exe v1.1.33.6 — *renamed to ahk.exe*

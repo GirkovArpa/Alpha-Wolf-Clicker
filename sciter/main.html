@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html window-resizable="false" window-icon="this://app/png/logo/32x32.png">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Alpha Wolf Clicker</title>
+    <link href="this://app/css/main.css" rel="stylesheet" />
+    <script src="this://app/js/main.js" type="module"></script>
+  </head>
+
+  <body>
+    <div #container>
+      <form>
+        <fieldset #click-interval>
+          <legend>Click Interval</legend>
+          <div>
+            <label for="hours">
+              <input |number #hours />
+              <span>Hours</span>
+            </label>
+            <label for="minutes">
+              <input |number #minutes />
+              <span>Minutes</span>
+            </label>
+            <label for="seconds">
+              <input |number #seconds />
+              <span>Seconds</span>
+            </label>
+            <label for="milliseconds">
+              <input |number #milliseconds />
+              <span>Milliseconds</span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset #options>
+          <legend>Options</legend>
+          <div>
+            <label for="mouse-button">Mouse Button</label>
+            <select #mouse-button>
+              <option value="Left">Left</option>
+              <option value="Right">Right</option>
+              <option value="Middle">Middle</option>
+            </select>
+            <button |checkbox #repeat-only>Repeat Only</button>
+            <input |text #repeat-value disabled novalue="Number of times" />
+          </div>
+        </fieldset>
+        <fieldset #mouse-position>
+          <legend>Mouse Position</legend>
+          <div>
+            <button |checkbox #custom-location>Custom Location</button>
+            <input |number novalue="X" #x disabled />
+            <input |number novalue="Y" #y disabled />
+          </div>
+        </fieldset>
+      </form>
+      <div #buttons>
+        <button #start accesskey="!F8">Start (F8)</button>
+        <button #stop disabled accesskey="!F8">Stop (F8)</button>
+        <button #about accesskey="!F1">About (F1)</button>
+      </div>
+    </div>
+  </body>
+
+</html>

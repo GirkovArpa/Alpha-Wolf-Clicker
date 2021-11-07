@@ -1,0 +1,123 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  width: min-content;
+  padding: 1em;
+}
+
+form {
+  flow: grid(1 1, 2 3);
+  border-spacing: 1em;
+}
+
+legend {
+  white-space: pre;
+  width: max-content;
+  color: rgb(30, 30, 30);
+}
+
+label {
+  width: 7.5em;
+}
+
+label input {
+  width: *;
+}
+
+label > span {
+  text-align: center;
+  width: *;
+  display: inline-block;
+}
+
+#click-interval > div {
+  flow: horizontal;
+  border-spacing: *;
+}
+
+#click-interval label>span {
+  height: 1.5em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  margin-top: 0.15em;
+}
+
+
+#click-interval input {
+  text-align: right;
+  height: 1.5em;
+  display: block;
+  width: *;
+  margin: 0 0.25em;
+}
+
+#click-interval input>caption{
+  padding-right: 0.5em;
+  width: *;
+}
+
+#options > div {
+  flow: grid(1 2, 3 4);
+  border-spacing: 0.5em;
+}
+
+#options > div select, #options > div input {
+  width: 10em;
+}
+
+#mouse-position > div {
+  flow: grid(1 1 1, 2 3 4);
+  height: *;
+  border-spacing: 0.5em;
+}
+
+#mouse-position input, #mouse-position button {
+  height: 2em;
+  box-sizing: border-box;
+  width: *;
+  vertical-align: middle;
+}
+
+#buttons {
+  margin-top: 1em;
+  flow: horizontal;
+  border-spacing: 1em;
+}
+
+#buttons button {
+  width: *;
+  height: 4em !important;
+}
+
+#custom-location {
+  width: 10em !important;
+}
+
+#start {
+  filter: sepia(1) hue-rotate(60deg);
+}
+
+#stop {
+  filter: sepia(1) hue-rotate(350deg);
+}
+
+#about {
+  filter: sepia(1) hue-rotate(90deg);
+  foreground-size: 1.5em 1.5em;
+  foreground-position: 0.5em 50%;
+  /*
+  stroke: white;
+  fill: blue;
+  foreground-image: url(path: M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-.001 5.75c.69 0 1.251.56 1.251 1.25s-.561 1.25-1.251 1.25-1.249-.56-1.249-1.25.559-1.25 1.249-1.25zm2.001 12.25h-4v-1c.484-.179 1-.201 1-.735v-4.467c0-.534-.516-.618-1-.797v-1h3v6.265c0 .535.517.558 1 .735v.999z);
+  */
+}
+
+select option:hover:not(:current) {
+  background-color: activecaption;
+}
