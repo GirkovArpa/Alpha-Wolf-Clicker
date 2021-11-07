@@ -19,6 +19,10 @@
   </a>
 </h1>
 
+Alpha Wolf Clicker is the leading auto-clicker for Windows.  This title was not granted by a third-party review — trail-blazers by nature, alpha wolves left reviewers behind long ago.  This title was self-bestowed by pure fiat.  
+
+**Be ahead of the pack.**  Use Alpha Wolf Clicker.
+
 ## Building
 
 ```sh
